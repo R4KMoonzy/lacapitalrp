@@ -1045,3 +1045,17 @@ ul { list-style: none; }
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* =====================================================
+   FIX AVATARES STAFF — ROBLOX.PNG
+   Este bloque fuerza que todos los avatares del staff
+   usen la imagen local roblox.png desde la misma carpeta.
+===================================================== */
+.staff-avatar {
+  background: var(--bg-dark) url("roblox.png") center center / cover no-repeat !important;
+}
+
+.staff-avatar img,
+.staff-avatar .avatar-ph {
+  display: none !important;
+}
